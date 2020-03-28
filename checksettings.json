@@ -1,0 +1,10 @@
+{
+  "Logging": {
+    "IncludeScope": true,
+    "LogLevel": {
+      "Default": "Information",
+      "WebCrawlerCore.LinkChecker": "Trace", //Scope the log by the namespace where the log is called from
+      "WebCrawlerCore.Program": "Debug"
+    } 
+  } 
+}
