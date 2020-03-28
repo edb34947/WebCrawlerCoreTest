@@ -20,5 +20,5 @@ OK - https://www.google.co.uk/intl/en/about/products?tab=wh
 OK - https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.co.uk/
 OK - http://www.google.co.uk/preferences?hl=en
 OK - http://www.google.co.uk/history/optout?hl=en
-OK - https://www.google.com/url?q=https://www.gov.uk/coronavirus&amp;source=hpp&amp;id=19016876&amp;ct=3&amp;usg=AFQjCNHStXMdOpC7bQJZHu1_IVkYRlHT4Q&amp;sa=X&amp;ved=0ahUKEwi9gLeeqLvoAhWGoBQKHUiUAEUQ8IcBCAU
-OK - https://www.google.co.uk/setprefdomain?prefdom=US&amp;sig=K_mFdj2DkdyL6mQ7gNiK_Rz_BhPSA%3D
+OK - https://www.google.com/url?q=https://www.gov.uk/coronavirus&amp;source=hpp&amp;id=19016876&amp;ct=3&amp;usg=AFQjCNHStXMdOpC7bQJZHu1_IVkYRlHT4Q&amp;sa=X&amp;ved=0ahUKEwjnkMPdp73oAhUADWMBHQzSDRMQ8IcBCAU
+OK - https://www.google.co.uk/setprefdomain?prefdom=US&amp;sig=K_jg_tgd7T6toyfV72g0lI0dTTvc4%3D
