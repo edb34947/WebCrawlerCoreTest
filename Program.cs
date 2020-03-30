@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Linq;
 using System.Net.Http;
 using Microsoft.Extensions.Logging;
@@ -25,11 +24,16 @@ namespace WebCrawlerCore
             var checkedLinks = LinkChecker.CheckLinks(links);
 
             using var file = File.CreateText(config.Output.GetReportFilePath());
-            foreach (var link in checkedLinks.OrderBy(x => x.Exists))
+            using var linksDb = new LinksDb();
             {
-                var status = link.IsMissing ? "missing" : "OK";
-                file.WriteLine($"{status} - {link.Link}");
-                Console.WriteLine($"{status} - {link.Link}");
+                foreach (var link in checkedLinks.OrderBy(x => x.Exists))
+                {
+                    var status = link.IsMissing ? "missing" : "OK";
+                    file.WriteLine($"{status} - {link.Link}");
+                    linksDb.Links.Add(link);
+                }
+
+                linksDb.SaveChanges();
             }
         }
     }
